@@ -1,0 +1,50 @@
+# LangChain + Ollama
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-ollama==0.2.1
+langchain-huggingface==0.1.2
+ollama==0.6.1
+
+# Vector search
+faiss-cpu==1.9.0.post1
+sentence-transformers==3.3.1
+
+# HuggingFace + Transformers
+transformers==4.46.3
+datasets==3.1.0
+huggingface-hub==0.26.2
+tokenizers==0.20.3
+
+# Fine-tuning concepts
+peft==0.13.2           # LoRA / PEFT
+accelerate==1.1.1      # training acceleration
+bitsandbytes==0.42.0   # quantization (4-bit/8-bit)
+
+# Document parsing
+pypdf==5.1.0
+python-docx==1.1.2
+
+# API
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# Evaluation + reporting
+rouge-score==0.1.2
+nltk==3.9.1
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.9.3
+seaborn==0.13.2
+jinja2==3.1.4
+
+# Utilities
+tqdm==4.67.1
+python-dotenv==1.0.1
+httpx==0.27.2
+aiofiles==24.1.0
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
